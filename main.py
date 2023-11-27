@@ -1,6 +1,7 @@
-
 import util
+import streamlit as st
 
 file = './data/boston.csv'
 df1 = util.getData(file)
-df1
+st.header('github test')
+st.write(df1)
